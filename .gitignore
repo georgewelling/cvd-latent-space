@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor
+.vscode/
+.idea/
+
+# Separate repos and reference code
+mcframe/
+mcspace/
+models/
+
+# Old script copies
+**/archive*/
+
+# Personal notes and planning
+CLAUDE.md
+.claude/
+*build-path*.md
+*walkthrough*.md
+*_plan.md
+*-plan.md
+mimic/slides.py
+
+# MIMIC data and anything derived from it (credentialed: never commit)
+data/
+derived/
+*.duckdb
+*.duckdb.wal
+*.json
+*.jsonl
+*.csv
+*.csv.gz
+*.parquet
+*.npy
+*.npz
+*.xlsx
+*.html
+*.zip
+
+# Model weights and adapters
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+lora_runs/
+checkpoints/
+
+# Secrets
+.env
+*token*
